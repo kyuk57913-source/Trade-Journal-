@@ -1,27 +1,23 @@
-# Trade Journal — GitHub Pages-д нийтлэх заавар
+Trade Journal ကို GitHub Pages ပေါ်တင်ရန်
 
-Энэ багцад аппын бүх шаардлагатай файл орсон. Тусдаа build хийх шаардлагагүй.
+ဒီ ZIP ထဲမှာ ဖိုင်တွဲမလိုပါ။ ZIP ကိုဖွင့်ပြီး အထဲကဖိုင်အားလုံးကို GitHub repository ရဲ့ ပင်မနေရာထဲ တင်ကာ ရှိပြီးသားဖိုင်တွေကို အစားထိုးပါ။
 
-## Нийтлэх алхам
-1. `trade-journal-github-pages.zip` файлыг татаж аваад задлана.
-2. Доторх файлуудыг GitHub repository-ийн үндсэн хавтас руу бүгдийг нь оруулна. ZIP файлыг дангаар нь оруулж болохгүй.
-3. GitHub дээр өөрчлөлтөө `main` салбарт хадгална (commit).
-4. Repository → **Settings → Pages** рүү орно.
-5. **Deploy from a branch** сонгоပြီး branch ကို `main`, folder ကို `/(root)` လုပ်ပြီး သိမ်းပါ.
-6. Publish ပြီးသွားတဲ့အခါ app link ကို ဖွင့်ပါ။
+အဆင့်များ
+1. ZIP ဖိုင်ကို ဖုန်းထဲသိမ်းပြီး ဖွင့်ပါ။
+2. အထဲကဖိုင်အားလုံးကို ရွေးကာ GitHub repository ရဲ့ ပင်မစာရင်းထဲ တင်ပါ။ ZIP ကိုယ်တိုင်ကိုသာ တင်မထားပါနှင့်။
+3. ဖိုင်စာရင်းမှာ အောက်ပါအမည်တွေ တစ်နေရာတည်းမှာ ပေါ်ရပါမယ်။
+   index.html
+   manifest.webmanifest
+   sw.js
+   app-icon-192.png
+   app-icon-512.png
+   app-icon-master.png
+   .nojekyll
+4. GitHub ရဲ့ Settings → Pages မှာ main branch နဲ့ /(root) ကို ရွေးထားပါ။
+5. ဖိုင်တင်ပြီး သိမ်းပါ။ ဝဘ်ဆိုက် ပြန်တင်ဖို့ ခဏစောင့်ပါ။
 
-Таны repository `Trade-Journal-` нэртэй бол нийтлэгдсэн manifest-ийн жишээ хаяг:
-`https://kyuk57913-source.github.io/Trade-Journal-/manifest.webmanifest`
+ပြီးရင် ဒီလင့်ခ်နှစ်ခုကို ဖွင့်ကြည့်ပါ။ ပုံပေါ်လာရင် ဖိုင်လမ်းကြောင်းမှန်ပါပြီ။
+https://kyuk57913-source.github.io/Trade-Journal-/app-icon-192.png
+https://kyuk57913-source.github.io/Trade-Journal-/app-icon-512.png
 
-Энэ холбоос нээгдэхэд JSON текст харагдах ёстой. Хэрэв 404 гарвал файл root түвшинд ороогүй эсвэл Pages deployment дуусаагүй байна.
-
-## Өгөгдлөө хамгаалах
-Trade мэдээлэл утас/браузерын дотоод санах ойд хадгалагдана. Тогтмол Backup export хийж хадгалаарай. Аппыг устгахаас өмнө заавал нөөц хуулбар үүсгэнэ.
-
-## Багцын файлууд
-- `index.html` — апп
-- `manifest.webmanifest` — суулгах мэдээлэл
-- `sw.js` — offline cache
-- `assets/app-icon-192.png`, `assets/app-icon-512.png` — app icon
-- `assets/app-icon-master.png` — өндөр нягтаршилтай эх logo
-- `.nojekyll` — GitHub Pages тохиргооны файл
+App ဖယ်ရှားမီ trade မှတ်တမ်းများကို အရန်သိမ်းထားပါ။
